@@ -1,0 +1,13 @@
+import React from 'react';
+import AuctionList from './components/AuctionList';
+
+function App() {
+    return (
+        <div>
+            <h1>Online Auction</h1>
+            <AuctionList />
+        </div>
+    );
+}
+
+export default App;
